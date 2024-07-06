@@ -1,0 +1,152 @@
+body{
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#434455;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: #fff;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo .web {
+    color:#2e2f42;
+    line-height: 1.17;
+}
+
+.idontknow{
+    color:#2e2f42;
+}
+
+.adres{
+    font-style: normal;
+}
+
+.adrli{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    
+}
+
+nav ul li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.main-screen{
+    background-color:#2e2f42;
+}
+
+.firsthead{
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.firstbutton{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.main-screen button{
+    background-color: #4D5AE5;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.our-team {
+        text-align: center;
+        background-color: #F4F4FD;
+}
+
+.ourh{
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+.our-text{
+    font-size: 16px;
+}
+
+.our-first{
+    background-color: #FFFFFF;
+}
+
+.portfolioh{
+    line-height: 1.11;
+    text-transform: capitalize;
+
+}
+
+footer p{
+        color: #f4f4fd;
+}
+
+button:hover, button:focus {
+    background-color:#404BBF;
+}
+
+.idontknow:hover, .adrli:hover, .idontknow:focus, .adrli:focus{
+    color: #404BBF;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .web{
+    color:#f4f4fd;
+}
