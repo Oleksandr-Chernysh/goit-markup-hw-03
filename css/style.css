@@ -12,6 +12,10 @@ ul, ol {
     margin: 0;
 }
 
+img{
+    display: block;
+}
+
 h1, h2, h3, h4, h5, p {
     margin: 0;
 }
@@ -73,8 +77,8 @@ button:hover, button:focus {
 
 /*Header*/
 
-header{
-    padding: 24px;
+header a{
+    display: block;
 }
 
 .logo {
@@ -85,6 +89,8 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo .web {
@@ -94,10 +100,13 @@ header{
 
 .idontknow {
     color: #2e2f42;
+        padding: 24px 20px;
+        align-items: center;
 }
 
 .adres {
     font-style: normal;
+
 }
 
 .adrli {
@@ -105,7 +114,11 @@ header{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px;
+}
 
+.adres ul li{
+            align-items: center;
 }
 
 nav ul li {
@@ -113,6 +126,15 @@ nav ul li {
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
+}
+
+.headfl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.idontknow-head, .adres ul, header nav{
+    display: flex;
 }
 
 
@@ -138,6 +160,8 @@ nav ul li {
     letter-spacing: 0.04em;
     display: block;
     margin: 0 auto;
+    padding: 16px 32px;
+    border: none;
 }
 
 .main-screen button {
@@ -156,7 +180,20 @@ nav ul li {
 
 .advh{
     margin-bottom: 8px;
-    margin-left: 14px;
+}
+
+.content{
+    display: none;
+}
+
+.advantages-ul{
+    display: flex;
+    gap: 24px;
+}
+
+.advantage-li{
+    flex-shrink: 1;
+    width: calc((100% - 72px) / 4);
 }
 
 /*our-team*/
@@ -186,6 +223,11 @@ nav ul li {
     padding: 32px 16px;
 }
 
+.our-ul{
+    display: flex;
+    gap: 24px;
+}
+
 /*our-portfolio*/
 
 .our-portfolio{
@@ -201,6 +243,16 @@ nav ul li {
 
 .portfolio-text-container{
     padding: 32px 16px;
+}
+
+.portfolio-ul{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-li{
+    width: calc((100% - 48px) / 3);
 }
 
 /*footer*/
