@@ -91,6 +91,10 @@ button:hover, button:focus {
 
 /*Header*/
 
+.headre{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 header a{
     display: block;
 }
@@ -114,7 +118,7 @@ header a{
 
 .idontknow {
     color: #2e2f42;
-        padding: 24px 20px;
+        padding: 24px 0;
         align-items: center;
 }
 
@@ -151,6 +155,17 @@ nav ul li {
     display: flex;
 }
 
+.nav{
+    align-items: center;
+}
+
+.idontknow-head{
+    gap: 40px;
+}
+
+.adres-ul{
+    gap: 40px;
+}
 
 /*main screen*/
 
@@ -280,6 +295,10 @@ margin-bottom: 8px
 
 .porth{
     margin-bottom: 8px;
+}
+
+.portfolio-conteiner{
+    border: 1px solid #e7e9fc;
 }
 
 /*footer*/
