@@ -60,6 +60,20 @@ p {
     letter-spacing: 0.02em;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -162,6 +176,8 @@ nav ul li {
     margin: 0 auto;
     padding: 16px 32px;
     border: none;
+    border-radius: 4px;
+    min-width: 169px;
 }
 
 .main-screen button {
@@ -211,16 +227,21 @@ nav ul li {
     margin-bottom: 72px;
 }
 
+.ourhh{
+margin-bottom: 8px
+}
+
 .our-text {
     font-size: 16px;
 }
 
 .our-first {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-text{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .our-ul{
@@ -248,11 +269,17 @@ nav ul li {
 .portfolio-ul{
     display: flex;
     gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
 }
 
 .portfolio-li{
     width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc;
+}
+
+.porth{
+    margin-bottom: 8px;
 }
 
 /*footer*/
@@ -269,4 +296,9 @@ nav ul li {
 
 footer p {
     color: #f4f4fd;
+}
+
+.ftlogo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
