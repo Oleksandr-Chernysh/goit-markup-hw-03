@@ -290,14 +290,11 @@ margin-bottom: 8px
 
 .portfolio-li{
     width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc
 }
 
 .porth{
     margin-bottom: 8px;
-}
-
-.portfolio-conteiner{
-    border: 1px solid #e7e9fc;
 }
 
 /*footer*/
